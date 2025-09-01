@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Boivob</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/font.css" />
+    <link rel="stylesheet" href="css/css/all.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://unpkg.com/lucide@latest"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="wrapper">
+      <div class="sidebar-header">
+        <nav class="">
+          <ul class="list-unstyled h6">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            
+
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="copy-right p-5 text-center">
+        © Copyright 2020 <br />
+        All rights reserved
+      </div>
+    </div>
+    <div class="main-wrapper">
+      <div class="main">
+        <a href="#up" class="button btn font-weight-bold"
+          ><i data-lucide="chevron-up"></i
+        ></a>
+        <div id="home" class="header pb-3">
+          <div id="up"></div>
+          <div class="container-fluid">
+            <div class="row px-5 pt-3 d-flex flex-row align-items-center sm-bg">
+              <span class="brand col-5 text-left">
+                <h5 class="brand-name mt-1">Boivob <br>Sarkar<br> Apon</h5>
+              </span>
+              <div class="col-7">
+                <div class="text-right">
+                  <a
+                    href="https://www.linkedin.com/in/boivob-sarkar-apon-795b1a26a"
+                    target="_blank"
+                  >
+                    <button class="hireme-btn">
+                      <i
+                        data-lucide="linkedin"
+                        style="width: 40px; padding: 1px; margin-bottom: 6px"
+                      ></i
+                      >Hire me
+                    </button>
+                  </a>
+
+                  <button id="toggler" class="toggler" onclick="ani()">
+                    <i data-lucide="menu"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+
+        <div class="main-home pb-4">
+          <div class="media d-flex flex-row align-items-center">
+            <div class="image-container m-5">
+              <img
+                class="my-image rounded"
+                src="img/boivob.jpeg"
+                alt=""
+              />
+            </div>
+            <div class="media-body">
+              <div class="home-heading font-weight-bold text-light">
+                Hey, I am <br />Boivob
+              </div>
+              <div>
+                <p style="color: #3deaa4" class="my-3">
+                  —<span class="ml-3">Based in Comilla</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr id="about" />
+        <div class="mian-aboutme m-5">
+          <div class="aboutme-title">
+            <div class="h4" style="color: #3deaa4">About me</div>
+            <div style="color: #3deaa4">——————</div>
+          </div>
+          <div class="aboutme-main mt-5">
+            <div class="mb-5">
+              <strong class="text-white h5"
+                >I'm Boivob.<br />
+                I am a Sostware Developer.
+              </strong>
+            </div>
+            <div class="mb-5">
+              <p class="text-light">
+                I’m Boivob, a 21-year-old student and aspiring tech enthusiast from Bangladesh. 
+                Alongside my studies, I explore UI/UX design and enjoy experimenting with creative digital ideas.
+                I’m currently focused on learning full-stack development and sharpening my problem-solving skills through
+                competitive programming. As the team lead of Vela, I’m passionate about collaboration, building meaningful projects, and constantly pushing myself to grow.
+                
+              </p>
+              <div class="mb-5 mt-">
+                <h5 style="color: #3ceca5">
+                  I am abilable on —
+                  <a
+                    href="https://www.instagram.com/no_eyes_4u/"
+                    target="_blank"
+                    ><i class="insta-ico" data-lucide="instagram"></i
+                  ></a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr id="services" />
+        <div class="main-services m-5">
+          <div class="services-title">
+            <div class="h4" style="color: #3deaa4">Services</div>
+            <div style="color: #3deaa4">——————</div>
+          </div>
+          <div class="services-main mt-5">
+            <div class="row">
+              <div class="col-xl-3 col-md-6 col-sm-12 sev-box p-5">
+                <i data-lucide="layout-panel-top" style="color: #3deaa4"></i>
+                <div class="my-3">
+                  <strong class="text-white h4">Web Designing</strong>
+                  <p class="mt-3">
+                    Design any types of business solution website for you.
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-sm-12 sev-box p-5">
+                <i data-lucide="squircle-dashed" style="color: #3deaa4"></i>
+                <div class="my-3">
+                  <strong class="text-white h4">UXUI Design</strong>
+                  <p class="mt-3">I do product design. that scales</p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-sm-12 sev-box p-5">
+                <i data-lucide="layout-panel-top" style="color: #3deaa4"></i>
+                <div class="my-3">
+                  <strong class="text-white h4">Web Development</strong>
+                  <p class="mt-3">
+                    Redesign & create custom website to promote your brand.
+                  </p>
+                </div>
+              </div>
+              <div class="col-xl-3 col-md-6 col-sm-12 sev-box p-5">
+                <i data-lucide="paintbrush-vertical" style="color: #3deaa4"></i>
+                <div class="my-3">
+                  <strong class="text-white h4">Brand Design</strong>
+                  <p class="mt-3">I desing timelss brands.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr id="skills" />
+        <div class="main-skills m-5">
+          <div class="row">
+            <div class="skill-devtitle col-md-6">
+              <div class="h4" style="color: #3deaa4">Development</div>
+              <div class="mb-5" style="color: #3deaa4">——————</div>
+              <div class="bars">
+                <div class="">
+                  <p class="text-light">Web Design & Development</p>
+                  <section><div class="bar-1"></div></section>
+                </div>
+                <div class="">
+                  <p class="text-light">UXUI Design</p>
+                  <section><div class="bar-2"></div></section>
+                </div>
+                <div class="">
+                  <p class="text-light">Brand Design</p>
+                  <section><div class="bar-3"></div></section>
+                </div>
+              </div>
+            </div>
+            <div class="skill-coding col-md-6">
+              <div class="h4" style="color: #3deaa4">Coding & Software</div>
+              <div class="mb-5" style="color: #3deaa4">——————</div>
+              <div class="bars">
+                <div class="">
+                  <p class="text-light">Figma</p>
+                  <section><div class="bar-5"></div></section>
+                </div>
+                <!-- <div class="">
+                  <p class="text-light">Adobe Creative Suite</p>
+                  <section><div class="bar-6"></div></section>
+                </div> -->
+                <!-- <div class="">
+                  <p class="text-light">Tailwid, Nextjs</p>
+                  <section><div class="bar-7"></div></section>
+                </div>
+                <div class="">
+                  <p class="text-light">Express, MongoDB</p>
+                  <section><div class="bar-8"></div></section>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr id="education" />
+        <div class="main-education m-5">
+          <div class="education-title">
+            <div class="h4" style="color: #3deaa4">Education</div>
+            <div style="color: #3deaa4">——————</div>
+          </div>
+          <div class="edu-wrapper">
+            <div class="row ml-3">
+              <div class="edu pt-2 col-lg-4 col-md-6 my-5">
+                <div class="circle"></div>
+                <div class="h4 mb-4 text-light">
+                  Secondary School Certificate
+                </div>
+                <p class="text-muted">Comilla Shikkha Board Govt. Model College</p>
+                <p class="text-muted">Session : 2020-2021</p>
+                <p class="text-muted">Passing year: March 2021</p>
+                <div class="circle2"></div>
+              </div>
+              <div class="edu pt-2 col-lg-4 col-md-6 my-5">
+                <div class="circle"></div>
+                <div class="h4 mb-4 text-light">Higher School Certificate</div>
+                <p class="text-muted">Comilla Shikkha Board Govt. Model College</p>
+                <p class="text-muted">Session : 2021-2022</p>
+                <p class="text-muted">Passing year: November 2023</p>
+                <div class="circle2"></div>
+              </div>
+              <div class="edu pt-2 col-lg-4 col-md-6 my-5">
+                <div class="circle"></div>
+                <div class="h4 mb-4 text-light">Bachelor of Science</div>
+                <p class="text-muted">Computer Science & Engineering</p>
+                <p class="text-muted">Session : 2024-2028</p>
+                <p class="text-muted">Passing year: ongoing</p>
+                <div class="circle2"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr id="experience" />
+        <div class="main-experience m-5">
+          <div class="experience-title">
+            <div class="h4" style="color: #3deaa4">Experience</div>
+            <div style="color: #3deaa4">——————</div>
+          </div>
+          <div class="exp-wrapper">
+            <div class="row d-flex flex-row justify-content-center">
+              <div class="exp col-lg-3 col-sm-12 m-5 p-5 rounded">
+                <p class="display-4">IUPC Team Leader</p>
+                <a
+                  class="text-white text-decoration-underline brand-color brand-bg"
+                  href="https://www.facebook.com/baiustcomputerclub"
+                  target="_blank"
+                >
+                  <p>BAIUST IUPC</p></a
+                >
+                <p>
+                  Led my university team in the Intra University Programming Contest
+                   (IUPC), where we secured 4th place across the entire varsity. As 
+                   team lead, I guided strategy, problem-solving, and collaboration 
+                   under time pressure, gaining valuable experience in leadership 
+                   and competitive programming.
+                </p>
+              </div>
+              <div class="exp col-lg-3 col-sm-12 m-5 p-5 rounded">
+                <p class="display-4">Intern Team Leader</p>
+                <a
+                  class="text-white text-decoration-underline brand-color brand-bg"
+                  href="https://www.facebook.com/baiustcomputerclub"
+                  target="_blank"
+                >
+                  <p>Team Vela</p></a
+                >
+                <p>
+                  Team leader of Vela, a student-driven constellation exploring technology,
+                   design, and innovation. I focus on guiding the team in building creative
+                   projects, solving real-world problems, and growing together through 
+                   collaboration, leadership, and constant learning
+                </p>
+              </div>
+              <div class="exp col-lg-3 col-sm-12 m-5 p-5 rounded">
+                <p class="display-4">Hackathon Team Leader</p>
+                <a
+                  class="text-white text-decoration-underline brand-color brand-bg"
+                  href="https://www.facebook.com/baiustcomputerclub"
+                  target="_blank"
+                >
+                  <p>BAIUST Hackathon</p></a
+                >
+                <p>
+                  Cohort Leader, BAIUST Engineering Intern Program — Leading and
+                  mentoring interns through structured projects, fostering
+                  teamwork, technical growth, and industry-oriented learning.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <hr id="projects" />
+        <div class="main-project m-5">
+          <div class="project-title">
+            <div class="h4" style="color: #3deaa4">Recent Work</div>
+            <div style="color: #3deaa4">——————</div>
+          </div>
+          <div class="ptoject-wrapper text-center">
+            <div class="row d-flex flex-row justify-content-center text-muted">
+              <div class="col-lg-3 col-sm-12 p-5 m-5">no work yet</div>
+              <div class="col-lg-3 col-sm-12 p-5 m-5">no work yet</div>
+              <div class="col-lg-3 col-sm-12 p-5 m-5">no work yet</div>
+            </div>
+            <div class="row d-flex flex-row justify-content-center text-muted">
+              <div class="col-lg-3 col-sm-12 p-5 m-5">no work yet</div>
+              <div class="col-lg-3 col-sm-12 p-5 m-5">no work yet</div>
+              <div class="col-lg-3 col-sm-12 p-5 m-5">no work yet</div>
+            </div>
+          </div>
+        </div> -->
+        <!-- <hr id="blogs" />
+        <div class="main-blogs m-5">
+          <div class="project-title">
+            <div class="h4" style="color: #3deaa4">Blogs</div>
+            <div style="color: #3deaa4">——————</div>
+          </div>
+          <div class="ptoject-wrapper text-center">
+            <div class="row d-flex flex-row justify-content-center text-muted">
+              <div class="col-lg-3 col-sm-12 p-5 m-5">no blog yet</div>
+              <div class="col-lg-3 col-sm-12 p-5 m-5">no blog yet</div>
+              <div class="col-lg-3 col-sm-12 p-5 m-5">no blog yet</div>
+            </div>
+          </div>
+        </div> -->
+        <hr id="contact" />
+        <div class="contact-main m-5">
+          <div class="row">
+            <div class="col-lg-3 col-sm-12">
+              <div class="contact-title">
+                <div class="h4 text-light">Get in Touch</div>
+                <p class="text-muted">
+                  Feel free to leave a line to contact me
+                </p>
+              </div>
+              <div class="icon-and-info text-muted d-flex flex-column">
+                <div class="my-2">
+                  <i class="mr-2 brand-color" data-lucide="at-sign"></i
+                  ><span> aagg3992@gmail.com</span>
+                </div>
+                <div class="my-2">
+                  <i class="mr-2 brand-color" data-lucide="smartphone"></i
+                  ><span> 01864474937</span>
+                </div>
+                <div class="my-2">
+                  <i class="mr-2 brand-color" data-lucide="locate"></i
+                  ><span>Paduar Bazar,Cumilla</span>
+                </div>
+              </div>
+            </div>
+
+            <form
+              action="https://formsubmit.co/aagg3992@gmail.com"
+              method="POST"
+              class="col-lg-9 col-md-12 mt-3"
+            >
+              <div class="row ml-3">
+                <input
+                  class="col-lg-12 col-sm-12 p-2 form"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                />
+              </div>
+
+              <div class="row ml-3 mt-3">
+                <input
+                  class="col-lg-12 col-sm-12 p-2 form"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="row ml-3 mt-3">
+                <textarea
+                  class="txt-area col-lg-12 col-sm-12 form pb-5"
+                  name="message"
+                  placeholder="Your Massage"
+                ></textarea>
+                <button
+                  type="submit"
+                  class="col-lg-12 col-sm-12 mt-3 button-cool"
+                >
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <hr />
+        <div class="footer">
+          <div class="footer-wrapper m-5">
+            <a class="mx-3" href="https://x.com/BoivobApon">X</a>
+            <a class="mx-3" href="https://www.linkedin.com/in/boivob-sarkar-apon-795b1a26a"
+              >Linkedin</a
+            >
+            <a
+              class="mx-3"
+              href="https://www.instagram.com/no_eyes_4u/"
+              target="_blank"
+              >Instagram</a
+            >
+          </div>
+          <div class="d-flex flex-row justify-content-center m-5 text-light">
+            Developed by Boivob Sarkar Apon
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('.toggler').click(function () {
+          $('.toggler').toggleClass('active');
+          $('.wrapper').toggleClass('active');
+        });
+      });
+    </script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
+</html>
